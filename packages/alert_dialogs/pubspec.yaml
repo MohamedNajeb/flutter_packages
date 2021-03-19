@@ -1,16 +1,17 @@
 name: alert_dialogs
 description: Helper methods for showing alert dialogs
-version: 0.2.0
-author: Andrea Bizzotto
-homepage: https://www.codewithandrea.com
+version: 0.0.1
+author: 
+homepage: 
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^1.0.0
+  # firebase_core: ^1.0.0
 
 dev_dependencies:
   flutter_test:
