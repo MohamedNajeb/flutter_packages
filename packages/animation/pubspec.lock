@@ -60,20 +60,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  io:
-    dependency: transitive
-    description:
-      name: io
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.3.5"
-  logger:
-    dependency: "direct main"
-    description:
-      name: logger
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.8.3"
   matcher:
     dependency: transitive
     description:
