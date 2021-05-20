@@ -117,7 +117,7 @@ class CustomDialogWidget extends StatelessWidget {
       children.add(
         Flexible(
           child: Padding(
-            padding: descriptionPadding,
+            padding: EdgeInsets.fromLTRB(24.0, 0.0, 24.0, 0.0),
             child: DefaultTextStyle(
               style: descriptionTextStyle ??
                   dialogTheme.contentTextStyle ??
@@ -132,7 +132,7 @@ class CustomDialogWidget extends StatelessWidget {
     if (body != null) {
       children.add(
         Padding(
-          padding: EdgeInsets.fromLTRB(24.0, 10.0, 24.0, 24.0),
+          padding: EdgeInsets.fromLTRB(24.0, 8.0, 24.0, 16.0),
           child: body,
         ),
       );
